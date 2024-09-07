@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+/* font-family: "Josefin Sans", sans-serif; */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 1300px;
+    background-color: #ececec;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.register-login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.register, .login {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 30%;
+}
+
+.register h2, .login h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #165dba;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1250a1;
+}
+
+.switcher {
+    align-self: center;
+    justify-content: center;
+}
+
+.switch {
+    background-color: #165dba;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-left: 10px;
+}
+
+.switch:hover {
+    background-color: #1250a1;
+}
